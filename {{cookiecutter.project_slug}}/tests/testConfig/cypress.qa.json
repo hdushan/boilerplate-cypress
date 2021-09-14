@@ -1,0 +1,6 @@
+{
+    "baseUrl": "https://ecui-qa.amaysim.net",
+    "env": {
+        "ENV": "qa"
+    }
+}

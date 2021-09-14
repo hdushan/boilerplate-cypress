@@ -1,0 +1,6 @@
+{
+    "baseUrl": "https://ecui-preprod.amaysim.net",
+    "env": {
+        "ENV": "preprod"
+    }
+}

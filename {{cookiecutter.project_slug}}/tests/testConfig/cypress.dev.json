@@ -1,0 +1,6 @@
+{
+    "baseUrl": "https://ecui-dev.amaysim.net",
+    "env": {
+        "ENV": "dev"
+    }
+}

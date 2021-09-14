@@ -1,0 +1,36 @@
+{
+  "plugins": [
+    "cypress",
+    "chai-friendly",
+    "prettier"
+  ],
+  "rules": {
+    "cypress/no-assigning-return-values": "error",
+    "cypress/no-unnecessary-waiting": "error",
+    "cypress/assertion-before-screenshot": "warn",
+    "no-unused-expressions": 0,
+    "chai-friendly/no-unused-expressions": 2,
+    "semi": [2, "never"],
+      "import/prefer-default-export": "off",
+      "object-curly-newline": "off",
+      "prettier/prettier": "error",
+      "operator-linebreak": [
+        "error",
+        "after",
+        {
+          "overrides": {
+            ":": "before"
+          }
+        }
+      ]
+  },
+  "env": {
+    "cypress/globals": true,
+    "node": true
+  },
+  "extends": [
+    "plugin:cypress/recommended",
+    "airbnb-base", 
+    "prettier"
+  ]
+}

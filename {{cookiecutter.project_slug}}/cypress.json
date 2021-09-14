@@ -1,0 +1,12 @@
+{
+    "integrationFolder":"tests",
+    "testFiles":"**/*spec.js",
+    "screenshotOnRunFailure":true,
+    "screenshotsFolder":"results/screenshots",
+    "supportFile":"cypress/support",
+    "videosFolder":"results/videos",
+    "pluginsFile":"cypress/plugins",
+    "chromeWebSecurity":false,
+    "viewportHeight": 800,
+    "viewportWidth": 1280
+}

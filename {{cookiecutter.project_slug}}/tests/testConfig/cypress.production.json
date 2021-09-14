@@ -1,0 +1,6 @@
+{
+    "baseUrl": "https://ecui.amaysim.net",
+    "env": {
+        "ENV": "production"
+    }
+}
